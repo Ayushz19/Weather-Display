@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body {
+   background-image:url('images/ocean.jpg'); 
+   
+   font-family:Arial, Helvetica, sans-serif;
+   background-size: cover;
+
+}
+
+.app {
+width: 50vh;
+margin:  100px auto;
+background-color: rgb(202, 197, 197);
+padding: 50px;
+text-align: center;
+opacity: 0.8;
+}
+
+
+#input {
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+.weather-body {
+    display: none;
+    color: brown;
+    padding: 30px ;
+    line-height:2rem;
+    border-radius: 10px;
+    
+    
+
+}
+ 
+.location {
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.temp {
+    font-size: 50px;
+    margin:20px 0;
+    text-shadow:2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max {
+   
+    font-size: 15pt;
+    color: rgb(197, 159, 35);
+    
+     
+}
+#wtype {
+    font-size:30px ;
+    padding: 20px;
+    color: royalblue;
+}
+h1
+{
+    text-align: center;
+    background-color: darkslategray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.msg {
+ padding: 10px;
+ font-style: italic;
+ 
+
+}
